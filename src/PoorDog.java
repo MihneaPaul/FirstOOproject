@@ -7,6 +7,7 @@ public class PoorDog {
     private String raceType;
 
     public PoorDog(){
+
     }
 
     public PoorDog(int sizex, String namex){
@@ -32,6 +33,11 @@ public class PoorDog {
     {
 
         return name; //this is the function that tells the object the 'INSTRUCTIONS' of how to get the value name out from the object to the user
+    }
+
+    public String getRaceType()
+    {
+        return raceType;
     }
 }
 
